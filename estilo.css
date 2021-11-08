@@ -1,0 +1,96 @@
+body{
+	height: 100vh;
+	font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(225deg, #141518,#4FA6A7 500%) no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*======Formatando container do formulário de cadastro======*/
+
+#container{
+
+	box-sizing: border-box;
+	align-items: center;
+	padding: 20px 0;
+	background: rgba(0,0,0, 0.1);
+	max-width: 30%;
+	height: auto;
+	text-align: center;
+	border-radius: 30px;
+}
+
+#container h1{
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+form{
+	margin: 0 auto;
+	width: 80%;
+}
+
+
+#container form input{
+	color: white;
+	text-align: center;
+	font-size: 0.8em;
+	width: 90%;
+	background: none;
+	margin-bottom: 60px;
+	border: none;
+	border-bottom: 1px solid white;
+	transition: all 0.25s;
+
+}
+
+
+#container form input:hover{
+	border: 1px solid #2BC284;
+	border-radius: 50px;
+	transition: all 1s;
+}
+
+
+#container form input:focus{
+	outline: 0;
+	border-bottom: 1px solid #2BC284;
+	transition: all 1s;
+}
+
+::placeholder{
+	color: #2BC284;
+
+}
+
+
+div#data-senha input#senha{
+	margin-left: 3%;
+	width: 40%;
+	display: inline-block;
+
+}
+
+div#data-senha input#data{
+	margin-right: 3%;
+	width: 40%;
+	display: inline-block;
+}
+
+#container input#botao{
+	cursor: pointer;
+	color: #2EC392;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	padding: 15px 0;
+	border: 2px solid white;
+	border-radius: 50px;
+}
+
+#container input#botao:hover{
+	background: #2EC392;
+	transition: all 1s;
+	color: #15181A;
+}
